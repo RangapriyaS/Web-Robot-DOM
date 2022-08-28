@@ -28,8 +28,12 @@ else if( userResponse === "Kidsroom"){
  alert('Lets go to the kids room');
  alert('Please click Ready to go button to go to other rooms');
 }
-else{
+else if(userResponse === "Bedroom"){
     alert('Lets go to the Bedroom');
+    alert('Please click Ready to go button to go to other rooms');
+}
+else {
+    alert('Please check the spelling of the rooms entered');
     alert('Please click Ready to go button to go to other rooms');
 }
 }

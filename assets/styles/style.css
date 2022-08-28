@@ -1,0 +1,10 @@
+.container{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.robot-container{
+    display: flex;
+    flex-direction: column;
+
+}
